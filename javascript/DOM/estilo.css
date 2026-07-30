@@ -1,0 +1,8 @@
+/*Atividade Hard - campo errado cor vermelha e campo certo cor verde*/
+#campoNome {
+    border: 2px solid red;
+}
+
+#campoNome.valido {
+    border: 2px solid green;
+}

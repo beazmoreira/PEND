@@ -1,0 +1,16 @@
+button {
+    
+    color: white;
+    color: #1a4052;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #19b5ff;
+}
+* {
+    background-color: rgb(167, 242, 242);
+}
+.destaque {
+   color: red;
+   font-weight: bold;
+   font-size: 50px; 
+}
