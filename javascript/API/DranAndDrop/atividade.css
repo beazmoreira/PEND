@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+    background-color: #BD0003;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #fdf0d5;
+    color: #111111;
+}
+
+.navegacao {
+    background-color: #BD0003;
+}
+
+h2 {
+    text-align: center;
+    color: #fdf0d5;
+}
+
+h4 {
+    text-align: center;
+    color: #fdf0d5;
+}
+
+
+
+
+#filmes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 25px;
+}
+
+.produto {
+    background-color: #780000;
+    color: #fdf0d5;
+    padding: 25px;
+    width: 120px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.produto:hover {
+    background-color: #a00000;
+}
+
+
+
+
+#carrinho {
+    width: 500px;
+    min-height: 100px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px dashed #fdf0d5;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#carrinho p {
+    color: #fdf0d5;
+}
+
+
+
+
