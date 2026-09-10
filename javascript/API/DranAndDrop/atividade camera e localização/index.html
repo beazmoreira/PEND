@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geolocation e Câmera</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Entregas - Mercado Livre</h1>
+    <h2>Ao entregador:</h2>
+    <h3>-Ative sua localização para que o usuário saiba onde está sua compra</h3>
+    <h3>-Ao entregar uma compra, registre na câmera</h3>
+
+    <!-- A ideia inicial que eu tive era o mesmo sistema que o mercado livre usa, porém mais funcional, sem depender totalmente 
+     do celular do entregador e sua galeria -->
+    <!-- NO caso ele colocaria  sua localização em tempo real e a foto do produto entregado ao cliente -->
+    <video id="camera" autoplay></video>
+
+    <canvas id="canvas" style="display: none;"></canvas>
+
+    <button id="botao">Tirar foto</button>
+
+    <img id="foto">
+
+    <script src="script.js"></script>
+</body>
+
+</html>
