@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+    background-color: #fffcf2;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 50px;
+    text-align: center;
+    background-color: #BD0003;
+}
+
+nav {
+    justify-content: space-evenly;
+    display: flex;
+     text-decoration: none !important;
+    color: #fdf0d5;
+    transition: 0.3s;
+}
+
+.navegacao {
+    background-color: #BD0003;
+}
+
+h2 {
+    text-align: center;
+    color: #BD0003;
+}
+
+h3 {
+    font-family: 'BBC Reith Sans', 'Helvetica Neue', Arial, sans-serif;
+    color: #FFA372;
+}
+
+.menu {
+    background-color: #BD0003;
+    padding: 10px;
+}
+
+.menu a {
+    margin-right: 20px;
+    color: #fdf0d5;
+    text-decoration: none;
+}
+
+.conteudo {
+    width: 100%;
+    margin: auto;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+}
+
+.noticia {
+    margin-top: 20px;
+
+    background-color :#bb3e03;      /* NOVO */
+    border: 1px solid  #fdf0d5;;    /* NOVO */
+    border-radius: 8px;           /* NOVO */
+    padding: 20px;                /* NOVO */
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08); /* NOVO */
+
+    transition: 0.3s;    
+    height: 500px;
+    overflow: hidden;
+     max-height: 400px;
+}
+
+.noticia:hover {
+    transform: translateY(-5px);  /* NOVO */
+}
+
+.noticia img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    max-width: 100%;              /* ALTERADO */
+    border-radius: 6px;           /* NOVO */
+}
+
+.rodape {
+    background-color: #780000;
+    color: #fdf0d5;
+    padding: 40px 60px;
+    margin-top: 40px;
+}
+
+.footer-conteudo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-conteudo h3,
+.footer-conteudo h4 {
+    margin-bottom: 10px;
+    color: #f1faee;
+}
+
+.footer-conteudo p {
+    margin: 5px 0;
+}
+
+
+
+/* TABLET */
+@media (max-width: 1024px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .noticia {
+        min-width: 45%;
+    }
+}
+
+/* CELULAR */
+@media (max-width: 768px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
